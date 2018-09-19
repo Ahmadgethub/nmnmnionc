@@ -11,13 +11,30 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { CodemapPage } from '../pages/codemap/codemap';
+import { CodefriendmapPage } from '../pages/codefriendmap/codefriendmap';
+
+// import { BagmapPage } from '../pages/bagmap/bagmap';
+// import { FreplacemapPage } from '../pages/Freplacemap/Freplacemap';
+// import { Code1Page } from '../pages/code1/code1';
+// import { Code2Page } from '../pages/code2/code2';
+
+
+
+
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    // CodemapPage,
+    // CodefriendmapPage,
+    // BagmapPage,
+    // FreplacemapPage,
+    // Code1Page,
+    // Code2Page
   ],
   imports: [
     BrowserModule,
@@ -29,7 +46,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    // CodemapPage,
+    // CodefriendmapPage,
+    // BagmapPage, 
+    // FreplacemapPage,
+    // Code1Page,
+    // Code2Page
   ],
   providers: [
     StatusBar,
